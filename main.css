@@ -12,10 +12,11 @@
 
 .section1 {
   flex: 0, 1vh;
-  background-color: gray;
+  background-color: darkgray;
 }
 .section1 menu{
   display: flex;
+  color: white;
   flex-direction: row;
   text-align: center;
   -ms-flex-align: center;
@@ -23,6 +24,7 @@
 }
 .section1 menu > * {
   flex: 1;
+  color: white;
   text-align: center;
 }
 
