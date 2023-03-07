@@ -47,8 +47,8 @@ class Game {
       this.mistakeSound = loadSound('error.mp3');
   
       document.querySelectorAll('.game-button').forEach((el, i) => {
-        if (i < btnDescriptions.length) {
-          this.buttons.set(el.id, new Button(btnDescriptions[i], el));
+        if (i < buttonDescriptions.length) {
+          this.buttons.set(el.id, new Button(buttonDescriptions[i], el));
         }
       });
   
